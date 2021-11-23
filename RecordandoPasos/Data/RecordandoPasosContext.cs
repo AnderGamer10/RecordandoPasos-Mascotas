@@ -15,5 +15,7 @@ namespace RecordandoPasos.Data
         }
 
         public DbSet<RecordandoPasos.Models.Usuarios> Usuarios { get; set; }
+
+        public DbSet<RecordandoPasos.Models.Mascota> Mascota { get; set; }
     }
 }
